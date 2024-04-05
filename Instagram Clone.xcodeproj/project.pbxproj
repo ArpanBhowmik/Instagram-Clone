@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF443A892BC06E630075DA68 /* Extensions.swift */; };
 		CFA4040A2BB999DD0091A707 /* Instagram_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */; };
 		CFA4040C2BB999DD0091A707 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4040B2BB999DD0091A707 /* ContentView.swift */; };
 		CFA4040E2BB999DD0091A707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA4040D2BB999DD0091A707 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF443A892BC06E630075DA68 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CFA404062BB999DD0091A707 /* Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
 		CFA4040B2BB999DD0091A707 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF443A852BC06BEE0075DA68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF443A872BC06C0B0075DA68 /* Screens */,
+				CF443A862BC06BFA0075DA68 /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF443A862BC06BFA0075DA68 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		CF443A872BC06C0B0075DA68 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */,
+				CFA4040B2BB999DD0091A707 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		CF443A882BC06E500075DA68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF443A892BC06E630075DA68 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		CFA403FD2BB999DD0091A707 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +131,8 @@
 		CFA404082BB999DD0091A707 /* Instagram Clone */ = {
 			isa = PBXGroup;
 			children = (
-				CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */,
-				CFA4040B2BB999DD0091A707 /* ContentView.swift */,
+				CF443A882BC06E500075DA68 /* Helpers */,
+				CF443A852BC06BEE0075DA68 /* Views */,
 				CFA4040D2BB999DD0091A707 /* Assets.xcassets */,
 				CFA4040F2BB999DD0091A707 /* Preview Content */,
 				CFEFE7122BBF1B6600BCBC87 /* Launch Screen.storyboard */,
@@ -262,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA4040C2BB999DD0091A707 /* ContentView.swift in Sources */,
+				CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */,
 				CFA4040A2BB999DD0091A707 /* Instagram_CloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
