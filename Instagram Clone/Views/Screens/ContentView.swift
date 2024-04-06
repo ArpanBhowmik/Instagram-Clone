@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-                FeedView()
+                FeedView(postArrayObject: PostArrayObject())
             }
             .tabItem {
                 Image(systemName: "book.fill")
@@ -39,7 +39,6 @@ struct ContentView: View {
         .accentColor(Color.MyTheme.purpleColor)
     }
 }
-
 
 #Preview {
     ContentView()
