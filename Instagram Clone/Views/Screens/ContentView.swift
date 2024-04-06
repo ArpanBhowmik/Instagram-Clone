@@ -10,11 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            Text("Screen 1")
-                .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("Feed")
-                }
+            NavigationView {
+                FeedView()
+            }
+            .tabItem {
+                Image(systemName: "book.fill")
+                Text("Feed")
+            }
             
             Text("Screen 2")
                 .tabItem {
@@ -37,6 +39,7 @@ struct ContentView: View {
         .accentColor(Color.MyTheme.purpleColor)
     }
 }
+
 
 #Preview {
     ContentView()
