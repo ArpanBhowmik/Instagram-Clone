@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF050E3B2BC1C87400654D13 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF050E3A2BC1C87400654D13 /* PostModel.swift */; };
 		CF050E3D2BC1CD9F00654D13 /* PostArrayObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF050E3C2BC1CD9F00654D13 /* PostArrayObject.swift */; };
+		CF32C80F2BC2744100A14C0F /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32C80E2BC2744100A14C0F /* CommentsView.swift */; };
 		CF38DE222BC10168004BCE70 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38DE212BC10168004BCE70 /* FeedView.swift */; };
 		CF38DE242BC10C3D004BCE70 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF38DE232BC10C3D004BCE70 /* PostView.swift */; };
 		CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF443A892BC06E630075DA68 /* Extensions.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		CF050E3A2BC1C87400654D13 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		CF050E3C2BC1CD9F00654D13 /* PostArrayObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostArrayObject.swift; sourceTree = "<group>"; };
+		CF32C80E2BC2744100A14C0F /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
 		CF38DE212BC10168004BCE70 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		CF38DE232BC10C3D004BCE70 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		CF443A892BC06E630075DA68 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */,
 				CFA4040B2BB999DD0091A707 /* ContentView.swift */,
 				CF38DE212BC10168004BCE70 /* FeedView.swift */,
+				CF32C80E2BC2744100A14C0F /* CommentsView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */,
 				CF050E3D2BC1CD9F00654D13 /* PostArrayObject.swift in Sources */,
 				CF38DE242BC10C3D004BCE70 /* PostView.swift in Sources */,
+				CF32C80F2BC2744100A14C0F /* CommentsView.swift in Sources */,
 				CFA4040A2BB999DD0091A707 /* Instagram_CloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
