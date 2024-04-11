@@ -24,4 +24,8 @@ class PostArrayObject: ObservableObject {
         dataArray.append(post3)
         dataArray.append(post4)
     }
+    
+    init(post: PostModel) {
+        dataArray.append(post)
+    }
 }

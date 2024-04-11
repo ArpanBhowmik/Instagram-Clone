@@ -24,6 +24,7 @@
 		CFA4041B2BB999DE0091A707 /* Instagram_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4041A2BB999DE0091A707 /* Instagram_CloneTests.swift */; };
 		CFA404252BB999DE0091A707 /* Instagram_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA404242BB999DE0091A707 /* Instagram_CloneUITests.swift */; };
 		CFA404272BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA404262BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift */; };
+		CFDBE7822BC79028008CF465 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDBE7812BC79028008CF465 /* ImageGridView.swift */; };
 		CFEFE7132BBF1B6600BCBC87 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEFE7122BBF1B6600BCBC87 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		CFA404202BB999DE0091A707 /* Instagram CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA404242BB999DE0091A707 /* Instagram_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneUITests.swift; sourceTree = "<group>"; };
 		CFA404262BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFDBE7812BC79028008CF465 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		CFEFE7122BBF1B6600BCBC87 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +108,8 @@
 		CF443A852BC06BEE0075DA68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CF443A872BC06C0B0075DA68 /* Screens */,
 				CF443A862BC06BFA0075DA68 /* Subviews */,
+				CF443A872BC06C0B0075DA68 /* Screens */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 				CF38DE232BC10C3D004BCE70 /* PostView.swift */,
 				CF4070672BC6DC070084164A /* MessageView.swift */,
 				CF40706D2BC7081B0084164A /* CarouselView.swift */,
+				CFDBE7812BC79028008CF465 /* ImageGridView.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				CF4070682BC6DC070084164A /* MessageView.swift in Sources */,
 				CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */,
 				CF050E3D2BC1CD9F00654D13 /* PostArrayObject.swift in Sources */,
+				CFDBE7822BC79028008CF465 /* ImageGridView.swift in Sources */,
 				CF38DE242BC10C3D004BCE70 /* PostView.swift in Sources */,
 				CF40706C2BC707310084164A /* BrowseView.swift in Sources */,
 				CF40706A2BC6DE7A0084164A /* CommentModel.swift in Sources */,
