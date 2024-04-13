@@ -44,7 +44,7 @@ struct UploadView: View {
                 ImagePicker(imageSelected: $imageSelected, sourceType: $sourceType)
             })
             
-            Image(uiImage: imageSelected)
+            Image("logo.transparent")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100, height: 100, alignment: .center)

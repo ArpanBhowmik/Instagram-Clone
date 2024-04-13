@@ -24,6 +24,7 @@
 		CFA4041B2BB999DE0091A707 /* Instagram_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA4041A2BB999DE0091A707 /* Instagram_CloneTests.swift */; };
 		CFA404252BB999DE0091A707 /* Instagram_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA404242BB999DE0091A707 /* Instagram_CloneUITests.swift */; };
 		CFA404272BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA404262BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift */; };
+		CFDBB3842BCAF49C00F78307 /* PostImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDBB3832BCAF49C00F78307 /* PostImageView.swift */; };
 		CFDBE7822BC79028008CF465 /* ImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDBE7812BC79028008CF465 /* ImageGridView.swift */; };
 		CFDBE7842BC7A3E2008CF465 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDBE7832BC7A3E2008CF465 /* UploadView.swift */; };
 		CFDBE7862BC7AC32008CF465 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDBE7852BC7AC32008CF465 /* ImagePicker.swift */; };
@@ -57,6 +58,7 @@
 		CF4070692BC6DE7A0084164A /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 		CF40706B2BC707310084164A /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		CF40706D2BC7081B0084164A /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		CF416ABA2BC85A7A00C61217 /* Instagram-Clone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Instagram-Clone-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CF443A892BC06E630075DA68 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		CFA404062BB999DD0091A707 /* Instagram Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA404092BB999DD0091A707 /* Instagram_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneApp.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		CFA404202BB999DE0091A707 /* Instagram CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA404242BB999DE0091A707 /* Instagram_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneUITests.swift; sourceTree = "<group>"; };
 		CFA404262BB999DE0091A707 /* Instagram_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instagram_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFDBB3832BCAF49C00F78307 /* PostImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageView.swift; sourceTree = "<group>"; };
 		CFDBE7812BC79028008CF465 /* ImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGridView.swift; sourceTree = "<group>"; };
 		CFDBE7832BC7A3E2008CF465 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
 		CFDBE7852BC7AC32008CF465 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -139,6 +142,7 @@
 				CF38DE212BC10168004BCE70 /* FeedView.swift */,
 				CF32C80E2BC2744100A14C0F /* CommentsView.swift */,
 				CF40706B2BC707310084164A /* BrowseView.swift */,
+				CFDBB3832BCAF49C00F78307 /* PostImageView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -174,6 +178,7 @@
 		CFA404082BB999DD0091A707 /* Instagram Clone */ = {
 			isa = PBXGroup;
 			children = (
+				CF416ABA2BC85A7A00C61217 /* Instagram-Clone-Info.plist */,
 				CF050E392BC1C86000654D13 /* Model */,
 				CF443A882BC06E500075DA68 /* Helpers */,
 				CF443A852BC06BEE0075DA68 /* Views */,
@@ -342,6 +347,7 @@
 			files = (
 				CF38DE222BC10168004BCE70 /* FeedView.swift in Sources */,
 				CF050E3B2BC1C87400654D13 /* PostModel.swift in Sources */,
+				CFDBB3842BCAF49C00F78307 /* PostImageView.swift in Sources */,
 				CFA4040C2BB999DD0091A707 /* ContentView.swift in Sources */,
 				CF4070682BC6DC070084164A /* MessageView.swift in Sources */,
 				CF443A8A2BC06E630075DA68 /* Extensions.swift in Sources */,
@@ -521,6 +527,8 @@
 				DEVELOPMENT_TEAM = D566BW3U4P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Instagram-Clone-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera at the user's request to take photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -553,6 +561,8 @@
 				DEVELOPMENT_TEAM = D566BW3U4P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Instagram-Clone-Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses camera at the user's request to take photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
